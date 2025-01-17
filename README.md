@@ -78,7 +78,7 @@ Muestra los libros cuyo idioma coincida con el código proporcionado por el usua
 
 ## API utilizada
 
-Este programa utiliza la API de Gutendex ([[https://www.exchangerate-api.com/](https://www.exchangerate-api.com/](https://gutendex.com/))
+Este programa utiliza la API de Gutendex (https://gutendex.com/)
 
 ## Requisitos
 
