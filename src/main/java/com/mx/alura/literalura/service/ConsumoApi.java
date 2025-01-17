@@ -6,7 +6,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-
 public class ConsumoApi {
     public String obtenerDatos(String url) {
         HttpClient client = HttpClient.newHttpClient();
@@ -22,7 +21,6 @@ public class ConsumoApi {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         String json = response.body();
         return json;
     }

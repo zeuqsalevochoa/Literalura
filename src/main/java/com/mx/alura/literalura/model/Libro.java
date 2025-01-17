@@ -1,9 +1,5 @@
 package com.mx.alura.literalura.model;
-
-
 import jakarta.persistence.*;
-
-import java.util.List;
 
 @Entity
 @Table(name = "LIBROS")

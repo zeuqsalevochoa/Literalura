@@ -1,10 +1,8 @@
 package com.mx.alura.literalura.repository;
 
 import com.mx.alura.literalura.model.Autor;
-import com.mx.alura.literalura.model.DatosAutor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

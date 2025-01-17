@@ -128,12 +128,12 @@ public class Principal {
     private void buscarLibroWeb() {
         DatosLibro datos = getDatosLibro();
         if (datos == null){
-            System.out.println("No se ha registrado el libro");
+            System.out.println("¡No se ha registrado el libro!");
             return;
         }
         var busqueda = libroRepository.findByTitulo(datos.titulo());
         if (busqueda != null ) {
-            System.out.println("Libro ya registrado en la base de datos");
+            System.out.println("¡Libro ya registrado en la base de datos!");
             System.out.println(busqueda);
             return;
         }
