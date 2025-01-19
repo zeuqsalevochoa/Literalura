@@ -1,4 +1,5 @@
 # Literalura
+![badge literalura](https://github.com/user-attachments/assets/9723b4aa-45ca-497a-b549-5ed11c835dd9)
 
 Este es un programa desarrollado en Java que permite la busqueda de libros de diferentes idiomas y realiza la persistencia de algunos datos a través de una base de datos relacional en PostgreSQL.
 
